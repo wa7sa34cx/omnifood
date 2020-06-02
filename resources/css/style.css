@@ -195,6 +195,7 @@ header {
     margin-top: 20px;
 }
 
+/* Main navi */
 .main-nav {
     float: right;
     list-style: none;
@@ -220,6 +221,51 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
    border-bottom: 2px solid #e67e22;
+}
+
+.logo-black { display: none; } 
+
+/* Sticky navi */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav {
+    margin-top: 18px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 18px 0;
+    color: #555;
+}
+
+.logo-black {
+    display: none;
+    height: 50px;
+    width: auto;
+    margin: 5px 0;
+    float: left;
+}
+
+
+.sticky .logo { display: none; }
+.sticky .logo-black { display: block; }
+
+
+/* Mobile navi */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
 }
 
 
@@ -568,6 +614,25 @@ footer p {
 .icon-stackoverflow:active {
     color: #f48024;
 }
+
+
+
+/*  ANIMATIONS  ========================================================================== */
+
+
+.js--wp-1,
+.js--wp-3 {
+    opacity: 0;
+}
+
+.js--wp-1 .animate__animated,
+.js--wp-3 .animate__animated {
+    opacity: 1;
+}
+
+
+
+
 
 
 
