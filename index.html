@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
@@ -10,6 +11,14 @@
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+        <link rel="manifest" href="resources/favicons/site.webmanifest">
+        <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#e67e22">
+        <meta name="msapplication-TileColor" content="#e67e22">
+        <meta name="theme-color" content="#ffffff">
 
         <title>OmniFood</title>
     </head>
@@ -127,7 +136,7 @@
             </div>
             <div class="row">
                 <div class="col span-1-of-2 steps-box">
-                    <img src="resources/img/app-iPhone.png" alt="" class="app-screen js--wp-2">
+                    <img src="resources/img/app-iPhone.png" alt="app" class="app-screen js--wp-2">
                 </div>
                 <div class="col span-1-of-2 steps-box">
                     <div class="works-step">
@@ -156,7 +165,7 @@
             </div>
             <div class="row js--wp-3">
                 <div class="col span-1-of-4 box-city">
-                    <img src="resources/img/lisbon-3.jpg">
+                    <img src="resources/img/lisbon-3.jpg" alt="Lisbon">
 
                     <h3>Lisbon</h3>
                     <div class="city-feature">
@@ -174,7 +183,7 @@
                 </div>
 
                 <div class="col span-1-of-4 box-city">
-                    <img src="resources/img/san-francisco.jpg">
+                    <img src="resources/img/san-francisco.jpg" alt="San Francisco">
 
                     <h3>San Francisco</h3>
                     <div class="city-feature">
@@ -192,7 +201,7 @@
                 </div>
 
                 <div class="col span-1-of-4 box-city">
-                    <img src="resources/img/berlin.jpg">
+                    <img src="resources/img/berlin.jpg" alt="Berlin">
 
                     <h3>Berlin</h3>
                     <div class="city-feature">
@@ -210,7 +219,7 @@
                 </div>
 
                 <div class="col span-1-of-4 box-city">
-                    <img src="resources/img/london.jpg">
+                    <img src="resources/img/london.jpg" alt="London">
 
                     <h3>London</h3>
                     <div class="city-feature">
@@ -239,19 +248,19 @@
                 <div class="col span-1-of-3">
                     <blockquote>
                         Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
-                        <cite><img src="resources/img/customer-1.jpg">Alberto Duncan</cite>
+                        <cite><img src="resources/img/customer-1.jpg" alt="Alberto Duncan">Alberto Duncan</cite>
                     </blockquote>
                 </div>    
                 <div class="col span-1-of-3">
                     <blockquote>
                         Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
-                        <cite><img src="resources/img/customer-2.jpg">Joana Silva</cite>
+                        <cite><img src="resources/img/customer-2.jpg" alt="Joana Silva">Joana Silva</cite>
                     </blockquote>
                 </div>
                 <div class="col span-1-of-3">
                     <blockquote>
                         I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
-                        <cite><img src="resources/img/customer-3.jpg">Milton Chapman</cite>
+                        <cite><img src="resources/img/customer-3.jpg" alt="Milton Chapman">Milton Chapman</cite>
                     </blockquote>
                 </div>   
             </div>    
@@ -394,7 +403,7 @@
                             <label for="find-us">How did you find us?</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <select name="find-us" if="find-us">
+                            <select name="find-us" id="find-us">
                                 <option value="friends">Friends</option>
                                 <option value="search" selected>Search engine</option>
                                 <option value="ad">Advertisement</option>
